@@ -1,5 +1,7 @@
+from marcode.cli.entrypoint import entrypoint
+
 def main():
-    print("Hello from marcode!")
+    entrypoint()
 
 
 if __name__ == "__main__":
