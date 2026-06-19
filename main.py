@@ -1,5 +1,6 @@
 from marcode.cli.entrypoint import entrypoint
 
+
 def main():
     entrypoint()
 

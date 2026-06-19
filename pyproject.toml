@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "colorama>=0.4.6",
+    "dotenv>=0.9.9",
     "openai>=2.43.0",
 ]
 
@@ -13,6 +15,7 @@ dev = [
     "marcode",
     "pyright>=1.1.410",
     "pytest>=9.1.0",
+    "ruff>=0.15.18",
 ]
 
 [tool.uv.workspace]
